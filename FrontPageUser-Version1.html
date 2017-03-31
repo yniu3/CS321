@@ -102,7 +102,7 @@ document.getElementById("table-title").innerHTML=tableTitle;
 //ROW INFORMATION STARTS HERE
 $('#export-excel').click(function(e){
 excelData=[];
-excelData.push(["",tableTitle,"Frequency","1st QTR","2nd QTR","3rd QTR","4th QTR"]);
+excelData.push([""]);
 var csvContent = "data:text/csv;charset=utf-8,";
 csvContent+=excelData.join(',').replace(',','\,')+"\n";
 $.each($('#table-data > tr'),function(rowIndex,rowValue){
