@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `Queue` (
+  `Name` varchar(46) NOT NULL DEFAULT '',
+  `Password` varchar(128) DEFAULT NULL,
+  `PartySize` int(4) DEFAULT 1,
+  `Phone` varchar(40) DEFAULT NULL,
+  `Email` varchar(123) DEFAULT NULL,
+  PRIMARY KEY (`Name`),
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
