@@ -58,6 +58,15 @@
 	#pass{
 		color:black;
 	}
+	#phone{
+		color:black;
+	}
+	#partySize{
+		color:black;
+	}
+	#notes{
+		color:black;
+	}
 </style></head><body>
 <div class="container">
 	<div class="page-header">
@@ -67,7 +76,7 @@
 		<p>Your Venue Here</p>
 		<div>
 			<form action="process.php" method="post">
-				<p> <label>Username:</label> &nbsp;&nbsp; <input id="user" name="user" type="text"> </p>
+			<p> <label>Username:</label> &nbsp;&nbsp; <input id="user" name="user" type="text"> </p>
 
 				<p> <label>Password:</label>&nbsp; &nbsp;&nbsp; <input id="pass" name="pass" type="password"> </p>
 				<p> <label>Contact Info:</label> <input id="phone" name="phone" type="text"> </p>
