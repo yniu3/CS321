@@ -70,10 +70,10 @@
   <p> <label>Username:</label> &nbsp;&nbsp; <input id="user" name="user" type="text"> </p>
 
   <p> <label>Password:</label>&nbsp; &nbsp;&nbsp; <input id="pass" name="pass" type="password"> </p>
-  <p> <label>Contact Info:</label> <input id="user" name="user" type="text"> </p>
-  <p> <label>Party Size:</label>&nbsp;&nbsp; &nbsp; <input id="user" name="user" type="text"> </p>
+  <p> <label>Contact Info:</label> <input id="phone" name="phone" type="text"> </p>
+  <p> <label>Party Size:</label>&nbsp;&nbsp; &nbsp; <input id="partySize" name="partySize" type="text"> </p>
   <p> <label>Notes:</label>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp; &nbsp; <input id="user" name="user" type="text"> </p>
+&nbsp;&nbsp; &nbsp; <input id="notes" name="notes" type="text"> </p>
   <p> <input class="btn btn-success" value="Submit" type="submit">&nbsp; <a href="http://localhost/Login/register.php"><small>Register</small></a>
   </p>
 </form>
