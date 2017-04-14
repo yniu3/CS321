@@ -14,6 +14,10 @@ try {
 ORDER BY id
 LIMIT 1;";
 
+	//go back to venue view
+	//readfile("VenueViewStatus.php");
+	
+
     // use exec() because no results are returned
     $conn->exec($sql);
     //echo "Record deleted successfully";
@@ -24,4 +28,6 @@ catch(PDOException $e)
     }
 
 $conn = null;
+header('Location: VenueViewStatus.php');
+exit;
 ?>
