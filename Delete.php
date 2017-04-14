@@ -10,7 +10,9 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // sql to delete a record
-    $sql = "DELETE FROM Myqueue WHERE id=1";
+    $sql = "DELETE FROM myqueue 
+ORDER BY id
+LIMIT 1;";
 
     // use exec() because no results are returned
     $conn->exec($sql);
