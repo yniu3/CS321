@@ -48,7 +48,7 @@
   }
   th{
     text-align: center;
-    background:#dd9610;
+    background:#FF8300;
     padding: 5px;
     overflow: hidden;
     white-space: nowrap;
@@ -70,9 +70,9 @@
         <table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
-              <td style="vertical-align: top; background-color: rgb(46, 45, 136); text-align: center;"><br>
+              <td style="vertical-align: top; background-color: rgb(46, 45, 136); text-align: center;width: 20%"><br>
               </td>
-              <td style="vertical-align: top; background-color: rgb(46, 45, 136); text-align: center; width: 33%;"><?php echo "<table style='border: solid 1px black;'>";
+              <td style="vertical-align: top; background-color: rgb(46, 45, 136); text-align: center; width: 70%;"><?php echo "<table style='border: solid 1px black;'>";
                 echo "<tr><th>username</th><th>Phone Number</th><th>Party Size</th><th>Notes</th></tr>";
 
                 class TableRows extends RecursiveIteratorIterator {
