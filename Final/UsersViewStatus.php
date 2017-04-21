@@ -73,7 +73,7 @@ color:black;
 <h1 style="text-align: center;">Don't Queue, You</h1>
 </div>
 <div class="jumbotron">
-<p style="text-align: center;"><img style="width: 300px; height: 114px;" alt="" src="Photos/betterqueueing.gif"><br>
+<p style="text-align: center;"><img style="width: 400px; height: 123px;" alt="" src="Photos/betterqueueing.gif"><br>
 </p>
 <div>
 <form action="Delete.php" method="post">
