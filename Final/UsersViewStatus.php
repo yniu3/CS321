@@ -82,7 +82,7 @@ color:black;
   <div class="container"> <label><b>There are</b></label> <label><b><?php $connect=mysqli_connect("localhost","root","","queue");
 	$all = "SELECT * FROM `myqueue`" or die(mysql_error());
 	$result=mysqli_query($connect,$all);
-	$count=mysqli_num_rows($result);
+	$count=mysqli_num_rows($result)-1;
 	echo  "<h2>$count</h2>";
 	?></b></label>
   <label><b>people in front of you in line</b></label> </div>
